@@ -1,0 +1,157 @@
+/*=== tablet area ===*/
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .inner_header {
+        padding: 15px 0;
+    }
+
+    .social_area {
+        padding-top: 15px;
+        max-width: 450px;
+    }
+
+    .inner_menu {
+        min-height: 0px;
+        padding: 0 0;
+        background: none;
+    }
+
+    .inner_menu::after {
+        background: none;
+    }
+
+    .inner_hero h2 {
+        font-size: 55px;
+    }
+
+    .child_work {
+        width: 30.33%;
+        float: left;
+        margin: 0 2%;
+    }
+
+    .child_work h2 {
+        font-size: 22px;
+    }
+
+    .child_work p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;
+    }
+
+    .about_area {
+        margin-left: 0px;
+    }
+
+    .service_area {}
+
+    .child_service .service_text {
+        width: 68%;
+        margin-bottom: 10px;
+    }
+
+    .child_service .service_text h3 {
+        font-size: 14px;
+        margin-top: -7px;
+    }
+
+    .child_service .service_text p {
+        font-size: 12px;
+        margin-top: -19px;
+        line-height: 15px;
+    }
+
+    .testimonial_area {
+        margin-right: 0px;
+    }
+
+    .child_testimonial h3 {
+        font-size: 15px;
+    }
+}
+
+/*=== mobile area ===*/
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .mini_menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mini_menu ul,
+    .social_area ul {
+        text-align: center;
+    }
+
+    .social_area ul li {
+        margin: 0 8px;
+    }
+
+    .search_area,
+    .logo_area {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .inner_hero {
+        padding-bottom: 10px;
+    }
+
+    .inner_hero img {
+        margin-bottom: 10px;
+    }
+
+    .inner_hero h2 {
+        font-size: 30px;
+    }
+
+    #work_area {
+        padding: 20px 0;
+    }
+
+    .child_work {
+        width: 100%;
+        margin: 0;
+    }
+
+    .child_service .service_image {
+        width: 20%;
+        float: left;
+    }
+
+    .child_service .service_text {
+        width: 80%;
+        line-height: 40px;
+    }
+
+    .child_footer {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .child_footer:last-child {
+        margin-bottom: 0px;
+    }
+
+    .child_footer h3 {
+        max-width: 50%;
+        width: 100%;
+    }
+
+    #copyright_area {
+        padding: 10px 0;
+    }
+
+    .left_copyright {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_copyright {width: 100%;
+        text-align: center;
+    }
+
+    .inner_copyright p {
+        font-size: 12px;
+    }
+}
